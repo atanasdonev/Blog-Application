@@ -1,0 +1,30 @@
+.back-link {
+	margin: 10px;
+}
+
+.AddPostPage {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	min-width: 600px;
+	height: 300px;
+	border: 1px solid lightgray;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+	padding: 30px;
+	margin-top: 50px;
+}
+
+label {
+	font-weight: bold;
+}
+
+input,
+textarea {
+	width: 100%;
+	padding: 6px 10px;
+	margin: 5px 0;
+	box-sizing: border-box;
+}
